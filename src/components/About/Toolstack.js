@@ -3,7 +3,6 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudio,
   SiPostman,
-  SiSlack,
   SiDocker,
   SiWindows,
   SiVisualstudiocode,
