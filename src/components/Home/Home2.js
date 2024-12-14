@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 // import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaYoutube } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -46,11 +46,17 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>Siéntete libre de <span className="purple">conectar </span>conmigo :</h1>
+            <h1>Siéntete libre de <span className="purple">conectar </span>conmigo a través de mi mail:</h1>
             <br></br>
             <p>
                <h2> <b className="purple">atochejoseangel@gmail.com</b></h2>
             </p>
+            <br></br>
+
+            <br></br>
+
+            <h1>También puedes conocerme más a través de <span className="purple">los siguientes canales: </span></h1>
+
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -70,6 +76,17 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+
+              <li className="social-icons">
+                <a
+                  href="https://www.youtube.com/@atochejose"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaYoutube />
                 </a>
               </li>
             </ul>

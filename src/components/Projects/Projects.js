@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import atenea from "../../Assets/Projects/ATENEA.png";
+import apolo from "../../Assets/Projects/APOLO.png";
+import zeus from "../../Assets/Projects/ZEUS.png";
+import hades from "../../Assets/Projects/HADES.png";
+import chronos from "../../Assets/Projects/CHRONOS.png";
+
 
 function Projects() {
   return (
@@ -15,76 +15,66 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Mis <strong className="purple">Proyectos </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={apolo}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Repositorio API (Project Apolo)"
+              description="Ralicé esta pequeña API para una prueba técnica"
+              ghLink="https://github.com/JoseAtoche/ProyectoAPI"
+              demoLink=""
+              tecnologias=".NET 8, SQLite"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={atenea}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="API Layered Architecture (Project Atenea)"
+              description="Realizado para tratar de mostrar mejor como es mi dominio de la arquitectura por capas"
+              ghLink="https://github.com/JoseAtoche/ProjectLayeredArchitecture"
+              demoLink=""
+              tecnologias=".NET 8, SQL Server"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={zeus}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Project Zeus (próximamente)"
+              description="Una aplicación utilizando Arquitectura DDD y CQRS con Event Sourcing para manejar eventos, integrando RabbitMQ, Docker, SQL Server y MediaR para la lógica de comandos y consultas."
+              ghLink=""
+              demoLink=""
+              tecnologias="DDD, CQRS, Event Sourcing, RabbitMQ, Docker, SQL Server, MediaR"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={hades}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Project Hades (próximamente)"
+              description="Una aplicación con Arquitectura Hexagonal, implementando CQRS y Event Sourcing con Kafka para mensajería en tiempo real, ejecutada en Docker y orquestada en Kubernetes en AWS, utilizando SQL Server, CosmosDB y MediaR."
+              ghLink=""
+              demoLink=""
+              tecnologias="Arquitectura Hexagonal, CQRS, Event Sourcing, Kafka, Docker, Kubernetes, AWS, SQL Server, CosmosDB, MediaR"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              imgPath={chronos}
+              isYTChannel={true}
+              title="Youtube (Project Chronos)"
+              description="En este canal subo los directos que hago aprendiendo distintas tecnologías o en mis proyectos personales"
+              ghLink=""
+              demoLink="https://www.youtube.com/@atochejose" 
+              tecnologias="¡Todas! (próximamente)"             
             />
           </Col>
         </Row>

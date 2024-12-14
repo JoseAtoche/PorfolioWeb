@@ -8,16 +8,14 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hola a todos, soy <span className="purple">José Ángel Atoche Jovacho</span>, 
-            nací en un pequeño pueblo de Sevilla y actualmente vivo en <span className="purple">Madrid, España.</span>
-            <br />
-            Soy desarrollador de software especializado en <span className="purple">backend</span>, 
-            trabajando con tecnologías como <span className="purple">.NET, C#, SQL Server</span> y más.
-            <br />
-            Cuento con <span className="purple">5 años de experiencia</span> en proyectos de sectores como el financiero, educativo y sanitario.
-            <br />
-            <br />
-            Además de mi pasión por la programación, disfruto con otras actividades:
+          Cuento con <span className="purple">5 años de experiencia</span> en proyectos de sectores como el financiero, educativo y sanitario.
+          <br/><br />
+          Soy desarrollador de software especializado en <span className="purple">backend</span>, 
+          trabajando con tecnologías como <span className="purple">.NET, C#, SQL Server</span> y más.
+          <br /><br />
+          Siempre busco seguir <span className="purple">aprendiendo</span> con mis proyectos personales
+          <br /><br />
+          Además de mi pasión por la programación, disfruto con otras actividades:
           </p>
           <ul>
             <li className="about-activity">

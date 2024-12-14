@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import {
   AiOutlineHome,  
   AiOutlineUser,
+  AiOutlineFundProjectionScreen,
   AiFillGithub
 } from "react-icons/ai";
 
@@ -67,7 +68,7 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> Sobre mi
               </Nav.Link>
             </Nav.Item>
-{/* 
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -79,7 +80,7 @@ function NavBar() {
                 />{" "}
                 Proyectos
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
