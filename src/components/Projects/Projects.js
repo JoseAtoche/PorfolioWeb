@@ -7,7 +7,8 @@ import apolo from "../../Assets/Projects/APOLO.png";
 import zeus from "../../Assets/Projects/ZEUS.png";
 import hades from "../../Assets/Projects/HADES.png";
 import chronos from "../../Assets/Projects/CHRONOS.png";
-
+import gaia from "../../Assets/Projects/GAIA.png";
+import hermes from "../../Assets/Projects/HERMES.png";
 
 function Projects() {
   return (
@@ -75,6 +76,29 @@ function Projects() {
               ghLink=""
               demoLink="https://www.youtube.com/@atochejose" 
               tecnologias="¡Pásate por mi canal a descubrir cuales!"             
+            />
+            </Col>
+
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hermes}
+              isBlog={true}
+              title="Blog (Project Hermes)"
+              description="Quiero comenzar a hacer Post en un blog personal"
+              ghLink=""
+              demoLink="" 
+              tecnologias="REACT"             
+            />
+            </Col>
+
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gaia}
+              title="WebSite (Project Gaia)"
+              description="¡Es esta web!"
+              ghLink=""
+              demoLink="" 
+              tecnologias="REACT"             
             />
           </Col>
         </Row>
