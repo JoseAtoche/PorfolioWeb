@@ -22,11 +22,11 @@ function Projects() {
             <ProjectCard
               imgPath={apolo}
               isBlog={false}
-              title="Repositorio API (Project Apolo)"
-              description="Ralicé esta pequeña API para una prueba técnica"
+              title="API (Project Apollo)"
+              description="Realicé esta pequeña API para una prueba técnica, con una Arquitectura por capas"
               ghLink="https://github.com/JoseAtoche/ProyectoAPI"
               demoLink=""
-              tecnologias=".NET 8, SQLite"
+              tecnologias=".NET 8, Layered Architecture, SQLite"
             />
           </Col>
 
@@ -34,11 +34,11 @@ function Projects() {
             <ProjectCard
               imgPath={atenea}
               isBlog={false}
-              title="API Layered Architecture (Project Atenea)"
-              description="Realizado para tratar de mostrar mejor como es mi dominio de la arquitectura por capas"
+              title="Front + API (Project Athena)"
+              description="Realizado para una prueba tecnica, tiene un front en React y una API con consumo de APIs externas"
               ghLink="https://github.com/JoseAtoche/ProjectLayeredArchitecture"
               demoLink=""
-              tecnologias=".NET 8, SQL Server"
+              tecnologias=".NET 8, Layered Architecture, SQL Server, React"
             />
           </Col>
 
@@ -50,7 +50,7 @@ function Projects() {
               description="Una aplicación utilizando Arquitectura DDD y CQRS con Event Sourcing para manejar eventos, integrando RabbitMQ, Docker, SQL Server y MediaR para la lógica de comandos y consultas."
               ghLink=""
               demoLink=""
-              tecnologias="DDD, CQRS, Event Sourcing, RabbitMQ, Docker, SQL Server, MediaR"
+              tecnologias=".NET 8, DDD, CQRS, Event Sourcing, RabbitMQ, Docker, SQL Server, MediaR"
             />
           </Col>
 
@@ -62,7 +62,7 @@ function Projects() {
               description="Una aplicación con Arquitectura Hexagonal, implementando CQRS y Event Sourcing con Kafka para mensajería en tiempo real, ejecutada en Docker y orquestada en Kubernetes en AWS, utilizando SQL Server, CosmosDB y MediaR."
               ghLink=""
               demoLink=""
-              tecnologias="Arquitectura Hexagonal, CQRS, Event Sourcing, Kafka, Docker, Kubernetes, AWS, SQL Server, CosmosDB, MediaR"
+              tecnologias=".NET 8, Arquitectura Hexagonal, CQRS, Event Sourcing, Kafka, Docker, Kubernetes, AWS, CosmosDB, MediaR"
             />
           </Col>
 
@@ -74,7 +74,7 @@ function Projects() {
               description="En este canal subo los directos que hago aprendiendo distintas tecnologías o en mis proyectos personales"
               ghLink=""
               demoLink="https://www.youtube.com/@atochejose" 
-              tecnologias="¡Todas! (próximamente)"             
+              tecnologias="¡Pásate por mi canal a descubrir cuales!"             
             />
           </Col>
         </Row>
