@@ -9,7 +9,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={12} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               PERMÍTEME <span className="purple"> PRESENTARME </span>
             </h1>
@@ -25,7 +25,6 @@ function Home2() {
                 <b className="purple">Clean Code</b>
               </i>
               . También disfruto aprendiendo sobre nuevas herramientas y nuevas areas{" "}
-              {/* <b className="purple">infraestructura en la nube</b>. */}
               <br />
               <br />
               Mi filosofía es siempre buscar la mejor manera de hacer las cosas, porque creo que 
@@ -34,26 +33,21 @@ function Home2() {
               <br />
               En mi tiempo libre, soy alguien que valora la familia, me gusta jugar videojuegos con buena narrativa y leer historias que aporten algo nuevo. 
             </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            {/* <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt> */}
-          </Col>
+          </Col>          
         </Row>
         <Row>
-
+        <br/>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>Siéntete libre de <span className="purple">conectar </span>conmigo a través de mi mail:</h1>
-            <br></br>
-            <p>
-               <h2> <b className="purple">atochejoseangel@gmail.com</b></h2>
-            </p>
-            <br></br>
+            <br/>
+            
+            <h2> <b className="purple">atochejoseangel@gmail.com</b></h2>
+            
+            <br/>
 
-            <br></br>
+            <br/>
 
             <h1>También puedes conocerme más a través de <span className="purple">los siguientes canales: </span></h1>
 
